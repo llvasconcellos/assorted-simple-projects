@@ -1,0 +1,52 @@
+body{
+	margin:0px 0px 0px 0px;
+	background-color:#FFFFFF;
+}
+.conteudo{
+	background-image:url(imagens/fundo_conteudo2.jpg);
+	background-position:center top;
+	background-repeat:repeat-x;
+}
+.menu_horizontal:link{
+	font-family:Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+	font-size:11px;
+}
+.menu_horizontal:visited{
+	font-family:Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+	font-size:11px;
+}
+.menu_horizontal:hover{
+	font-family:Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+	font-size:11px;
+}
+.menu_horizontal:active{
+	font-family:Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+	font-size:11px;
+}
+select{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+.branco_no_azul{		
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#FFFFFF;
+	text-align:center;
+}
+.conteudo2{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
