@@ -7,6 +7,9 @@ Some simple legacy websites and projects
 ##Sensitive Website
 ![Sensitive](/sensitive/screenshot/SENSITIVE.jpg)
 
+##Clave de Sol
+![Clave de Sol](/clave-de-sol/screenshots/clave-de-sol.png)
+
 ##Brietzig Website
 ![Brietzig](/brietzig/screenshots/Brietzig%20Imobiliária%20-%20IMÓVEIS%20INDUSTRIAIS%2C%20comerciais%20e%20residenciais%20na%20região%20de%20Joinville-SC.png)
 
