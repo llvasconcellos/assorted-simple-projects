@@ -1,0 +1,103 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+	
+<head>
+<title>.:: FLUNDI - Floripa Underground Information ::.</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Page-Enter" content="blendtrans(duration=2.0)">
+<script language="javascript" type="text/JavaScript">
+			var id;
+			var colorglow = "#090909";
+			function stopglow(objeto){
+				clearInterval(id);
+				eval(objeto + ".style.filter=''");
+			}
+			function glow(objeto){
+				id = setInterval(objeto + ".style.filter='Glow(Color=" + colorglow + ", Strength=10)'",100);
+			}
+			function para(){
+				pracima.src='imagens/arrow_up_red.gif';
+				prabaixo.src = 'imagens/arrow_down_red.gif'
+				clearInterval(id);
+			}
+			function go(pagina){
+				document.getElementById("conteudo").src=pagina + ".php";
+				titulo.src = 'imagens/titulo_' + pagina + '.gif';
+				tabelaprincipal.background = 'imagens/fundo_' + pagina + '.jpg';
+				if (pagina == 'festas'){
+					colorglow = '#FF9900';
+				}
+				if (pagina == 'flundi'){
+					colorglow = '#3300FF';
+				}
+				if (pagina == 'djs'){
+					colorglow = '#999900';
+				}
+				if (pagina == 'lista'){
+					colorglow = '#009900';
+				}
+				if (pagina == 'contato'){
+					colorglow = '#00ff00';
+				}
+			}
+		</script>
+<style type="text/css">
+		<!--
+		.imagemtitulo {
+			position: absolute;
+			top: 57%;
+			right: 14%;
+			z-index: 2;
+		}
+		.tabelaprincipal {
+						background-attachment: fixed;
+						background-repeat: no-repeat;
+						vertical-align: middle;
+						left: 10%;
+						background-position: 0px 0px;
+						z-index: 1;
+					}
+		-->
+		</style>
+</head>
+<body leftmargin=0 rightmargin=0 topmargin=0 bottomMargin=0 scroll=no>
+<table id="tabela" align="center" width="100%" height="100%" valign="center" leftmargin=0 rightmargin=0 topmargin=0 bottomMargin=0>
+	<tr>
+		<td>
+			<table id="tabelaprincipal" border="0" bordercolor="#000000" width="797" height="456" align="center" background="imagens/fundo_cinza.jpg" class="tabelaprincipal" valign="center">	
+				<tr> 
+					<td rowspan="3" width="400">
+						<IFRAME id="conteudo" frameborder="0" SRC="branco.html" width="400" height="350" allowTransparency></IFRAME>
+					</td>
+					<td valign="top"></td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<td valign="top"></td>
+				</tr>
+				<tr> 		
+					<td height="81"> 
+						<table bordercolor="#000000" border="0" cols="5" width="400">
+							<tr>
+								<td><img style="cursor: pointer;" onClick="go('flundi');" id="flundi" onMouseover="glow('flundi');" onMouseout="stopglow('flundi');" src="imagens/flundi_branco.gif" border="0"></td>
+								<td><img style="cursor: pointer;" onClick="go('lista');" id="lista" onMouseover="glow('lista');" onMouseout="stopglow('lista');" src="imagens/lista_branco.gif" border="0"></td>
+								<td><img style="cursor: pointer;" onClick="go('djs');" id="djs" onMouseover="glow('djs');" onMouseout="stopglow('djs');" src="imagens/djs_branco.gif" border="0"></td>
+								<td><img style="cursor: pointer;" onClick="go('festas');" id="festas" onMouseover="glow('festas');" onMouseout="stopglow('festas');" src="imagens/festas_branco.gif" border="0"></td>
+								<td><img style="cursor: pointer;" onClick="go('contato');" id="contato" onMouseover="glow('contato');" onMouseout="stopglow('contato');" src="imagens/contato_branco.gif" border="0"></td>
+							</tr>
+							<tr>
+								<td>&nbsp;</td>
+							</tr>
+						</table>	
+					</td>
+					<td>&nbsp;</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>			
+<div id="imagemtitulo" class="imagemtitulo"><img id="titulo" src="imagens/titulo_flundi.gif"></div>
+</body>
+</html>
