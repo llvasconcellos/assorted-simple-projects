@@ -1,0 +1,31 @@
+.menuesquerdo {
+	width: 130px;
+	height: 500px;
+	background-image: url(img/fundo-esq.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.menudireito {
+	width: 130px;
+	filter: Alpha(Opacity=50);
+}
+td.opcaomenuinstrumentos {
+	background-color: #EEEEEE;
+	border: 1px solid #C2C0BE;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #62605F;
+	text-align: center;
+	cursor: hand;
+}
+td.opcaomenuinstrumentos:hover {
+	background-color: #EEEEEE;
+	border: 1px solid #C2C0BE;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #DA251D;
+	text-align: center;
+	cursor: hand;
+}
