@@ -1,8 +1,8 @@
 <?php
-$link = mysql_connect("localhost", "root", "Velox666") or die("Erro de conexão com o banco: " . mysql_error());
+/*$link = mysql_connect("localhost", "root", "Velox666") or die("Erro de conexão com o banco: " . mysql_error());
 mysql_select_db ("flundi");
 $result = mysql_query("SELECT * FROM festas") or die("Erro ao acessar registros no Banco de dados: " . mysql_error());	
-$eof = mysql_num_rows($result);
+$eof = mysql_num_rows($result);*/
 ?>		
 <html>
 <head>
@@ -53,10 +53,15 @@ a:visited{
 </style>
 </head>
 <body>
-<table>
+
+<h2>Devassa</h2>
+<p><b>Data:</b> 27/03/2002</p>
+<p><b>Local:</b> Fábrica Abandonada</p>
+<p><b>LineUP:</b> Spiceee, Ledgroove</p>
+<!--table>
 <tr>
 <td>
-<?php for($i = 0; $i < $eof; $i++){
+<?php /*for($i = 0; $i < $eof; $i++){
 		$festas = mysql_fetch_row($result);
 		echo("<table>");
 		echo("<tr><td class='nome' colspan=2>" . $festas[1] . "</td></tr>");
@@ -68,11 +73,11 @@ a:visited{
 		echo("<tr><td colspan=2 class='txt'><a href='http://" . $festas[6] . "'>" . $festas[6] . "</a></td></tr>");
 		echo("<tr><td>&nbsp;</td><td>&nbsp;</td></tr>");
 		echo("</table>");
-		} 
+		} */
 ?>
 </td>		
 </tr>
-</table>
+</table-->
 </body>
 </html>
-<?php mysql_close($link); ?>
+<?php //mysql_close($link); ?>
