@@ -1,6 +1,9 @@
 # assorted-simple-projects
 Some simple legacy websites and projects
 
+##DHTML Color Picker (2001)
+![dhtml-color-picker](/dhtml-color-picker/screenshots/colors.png)
+
 ##FLUNDI - Floripa Underground Information Website
 ![Flundi](/flundi/screenshots/-%20%20FLUNDI%20-%20Floripa%20Underground%20Information.png)
 
