@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<slides>
+    <slide>
+        <img>http://www.devhouse.com.br/tvpix/foto1.jpg</img>
+        <html>
+             <![CDATA[
+             <font color="#FF0000" size="36"><p><b>Carne Bovina</b></p></font>
+             <font color="#FFFFFF" size="20"><br><p>        <b>bla</b> bla bla bla bla bla</p><br><br><br></font>
+             <font color="#00FF00" size="36"><p>    <b>R$ 22,00</b></p></font>
+             ]]>
+        </html>
+    </slide>
+    <slide>
+        <img>http://www.devhouse.com.br/tvpix/foto2.jpg</img>
+        <html>
+             <![CDATA[
+             <font color="#FF0000" size="36"><p><b>Carne Bovina</b></p></font>
+             <font color="#FFFFFF" size="20"><br><p>        <b>bla</b> bla bla bla bla bla</p><br><br><br></font>
+             <font color="#00FF00" size="36"><p>    <b>R$ 19,90</b></p></font>
+             ]]>
+        </html>
+    </slide>
+</slides>

@@ -1,0 +1,28 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>teste</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script type="text/javascript">
+            var x = 0;
+            window.onload = function(){
+               setInterval("animacao();", 500);
+            }
+            function animacao(){
+                //alert(caixa.style.left);
+                var caixa = document.getElementById("caixa");
+                x = x + 10;
+                caixa.style.left = x + "px";
+                
+                //alert(caixa.style.left);
+            }
+        </script>
+    </head>
+    <body>
+        <div id="caixa" style="background-color: red; color: white; width: 100px; height: 100px; left:0px; right:0px; position: absolute;">TODO write content</div>
+    </body>
+</html>
